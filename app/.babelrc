@@ -1,0 +1,8 @@
+{
+  "presets": ["flow"],
+  "plugins": [
+    "syntax-trailing-function-commas",
+    "transform-es2015-modules-commonjs",
+    "transform-runtime"
+  ]
+}
