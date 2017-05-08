@@ -7,6 +7,7 @@ Template project for a Node.js backend 🕺
 * Build and run stripped production image
 * Uses Koa, Babel, Flow, ESLint and Prettier
 * Support for ES6 modules
+* Jest for unit testing 
 
 ## Usage
 
