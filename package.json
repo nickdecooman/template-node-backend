@@ -2,10 +2,10 @@
   "name": "template-backend",
   "version": "0.0.1",
   "scripts": {
-    "build-dev": "scripts/build.sh dev",
-    "up-dev": "scripts/up.sh dev",
-    "build-prod": "scripts/build.sh prod",
-    "up-prod": "scripts/up.sh prod",
-    "clear": "scripts/clear.sh"
+    "build-dev": "setup/build.sh dev",
+    "up-dev": "setup/up.sh dev",
+    "build-prod": "setup/build.sh prod",
+    "up-prod": "setup/up.sh prod",
+    "clear": "setup/clear.sh"
   }
 }
