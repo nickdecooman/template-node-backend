@@ -1,6 +1,7 @@
 {
   "parser": "babel-eslint",
   "extends": [
+    "plugin:jest/recommended",
     "airbnb-base",
     "airbnb-flow",
     "prettier",
@@ -8,7 +9,8 @@
   ],
   "plugins": [
     "flowtype",
-    "prettier"
+    "prettier",
+    "jest"
   ],
   "rules": {
     "prettier/prettier": ["error", {
@@ -17,5 +19,8 @@
       "singleQuote": true,
     }],
     "no-console": 0
+  },
+  "env": {
+    "jest/globals": true
   }
 }
