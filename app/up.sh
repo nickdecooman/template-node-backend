@@ -4,5 +4,5 @@ if [ "$NODE_ENV" == "production" ]; then
   echo "Running in production mode on port $PORT"
   node dist/index.js
 else
-  ./watch.sh
+  /bin/sh watch.sh
 fi

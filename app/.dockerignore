@@ -9,7 +9,3 @@ npm-debug.log
 .gitignore
 .dockerignore
 .DS_Store
-.eslintrc
-.eslintignore
-.editorconfig
-.DS_Store
