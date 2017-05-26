@@ -1,12 +1,13 @@
 {
   "name": "template-backend",
   "version": "0.0.1",
+  "port": "3001",
   "scripts": {
     "build-dev": "setup/build.sh dev",
     "up-dev": "setup/up.sh dev",
     "build-prod": "setup/build.sh prod",
     "up-prod": "setup/up.sh prod",
     "test": "setup/test.sh",
-    "clear": "setup/clear.sh"
+    "clean": "setup/clean.sh"
   }
 }

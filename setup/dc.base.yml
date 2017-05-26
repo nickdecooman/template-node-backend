@@ -1,4 +1,4 @@
-version: '2'
+version: '2.1'
 services:
   node:
     image:
@@ -9,6 +9,7 @@ services:
       args:
         NODE_ENV: production
     ports:
-      - "3000:3000"
+      - "$PORT:$PORT"
     environment:
-      - PORT=3000
+      - PORT=$PORT
+      - FORCE_COLOR=1
