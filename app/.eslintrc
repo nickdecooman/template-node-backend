@@ -2,8 +2,8 @@
   "parser": "babel-eslint",
   "extends": [
     "plugin:jest/recommended",
+    "plugin:flowtype/recommended",
     "airbnb-base",
-    "airbnb-flow",
     "prettier",
     "prettier/flowtype",
   ],
@@ -12,15 +12,35 @@
     "prettier",
     "jest"
   ],
+  "env": {
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": false,
+      "generators": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  settings: {
+    "import/ignore": ["node_modules"],
+    "import/extensions": [".js"],
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".json"]
+      }
+    }
+  },
   "rules": {
     "prettier/prettier": ["error", {
-      "trailingComma": "all",
+      "trailingComma": "es5",
       "bracketSpacing": true,
       "singleQuote": true,
     }],
     "no-console": 0
-  },
-  "env": {
-    "jest/globals": true
   }
 }
