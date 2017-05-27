@@ -14,8 +14,8 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-flow": "^6.23.0",
-    "chalk": "^1.1.3",
     "eslint": "^3.19.0",
+    "eslint-babel-watcher": "^1.0.1",
     "eslint-config-airbnb-base": "^11.1.3",
     "eslint-config-prettier": "^1.7.0",
     "eslint-plugin-flowtype": "^2.32.1",
@@ -24,17 +24,8 @@
     "eslint-plugin-prettier": "^2.0.1",
     "flow-bin": "^0.45.0",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-eslint": "^3.0.1",
-    "gulp-nodemon": "^2.2.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-watch": "^4.3.11",
     "jest": "^20.0.0",
-    "minimist": "^1.2.0",
-    "nodemon": "^1.11.0",
-    "prettier": "^1.3.1",
-    "pretty-error": "^2.1.0",
-    "run-sequence": "^1.2.2"
+    "prettier": "^1.3.1"
   },
   "optionalDependencies": {
     "fsevents": "1.0.17"
