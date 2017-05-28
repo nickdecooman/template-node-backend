@@ -3,7 +3,7 @@
 if [ "$NODE_ENV" == "production" ]; then
   echo "Building in production mode"
   NODE_ENV=development yarn install;
-  ./node_modules/.bin/babel ./src -d dist
+  ./node_modules/.bin/babel ./src -d build
   rm -rf src .babelrc .flowconfig
   rm -- "$0"
 else
